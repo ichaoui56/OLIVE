@@ -338,6 +338,10 @@ nav ul li a {
         margin-left: 3px;
     }
 
+    .footer{
+        max-height: 400px;
+    }
+
     .footer pre{
         display: flex;
         justify-content:  center;
@@ -408,9 +412,27 @@ nav ul li a {
     justify-content: space-around;
    }
 
+   .les-livres a:hover{
+    -webkit-box-shadow: 2px 20px 63px 23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 20px 63px 23px rgba(0,0,0,0.75);
+    box-shadow: 2px 20px 63px 23px rgba(0,0,0,0.75);
+   }
+
    .un-livre{
     display: flex;
     justify-content: center;
     padding-top: 20px;
+   }
+
+   .un-livre a:hover{
+    -webkit-box-shadow: 2px 20px 63px 23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 20px 63px 23px rgba(0,0,0,0.75);
+     box-shadow: 2px 20px 63px 23px rgba(0,0,0,0.75);
+   }
+
+   .animation:hover{
+    transform: translate(-10px, -10px);
+    transition-duration: 1s;
+    transition-delay: 0.6ms;
    }
    

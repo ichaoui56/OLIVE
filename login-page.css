@@ -9,7 +9,7 @@ body{
     justify-content:center;
     align-items: center;
     min-height: 100vh;
-    background: url('logo1.jpg') no-repeat;
+    background: url(pictures/logo1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -150,7 +150,7 @@ body{
 }
 
 .remember-forget a {
-    color: white;
+    color: #F3EFBF;
     text-decoration: none;
 }
 
@@ -164,6 +164,14 @@ body{
     justify-content: center;
     
     
+}
+
+.wrapper .login-btn:hover{
+    transform: translate(-3px, -3px);
+    transition-duration: 1s;
+    transition-delay: 0.6ms;
+    background-color: rgb(220, 220, 159) !important;
+
 }
 
 .wrapper .click-btn .login-btn{
@@ -180,18 +188,6 @@ body{
     border: 2px solid #F3EFBF;   
 }
 
-
-
-button{
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-}
-button:hover{
-    color: black;
-    background: transparent;
-
-}
-
 .wrapper .register{
     display: flex;
     justify-content: center;
@@ -200,7 +196,7 @@ button:hover{
 
 .wrapper .register a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #F3EFBF;
 }
 
 .wrapper .register a:hover{
@@ -211,6 +207,11 @@ button:hover{
 .button-register{
     display: flex;
     flex-direction: column;
+}
+
+.decoration-button{
+    text-decoration: none;
+    color: #F3EFBF;
 }
 
 
