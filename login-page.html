@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Shop</title>
-    <link rel="stylesheet" href="login-page.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/login-page.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
-    
-    <form action="landing-page.html">
+<body style="background: url(pictures/logo1.jpg) no-repeat;">
+
+    <form action="index.html">
         <div class="wrapper">
             <div class="login-page">
                 <h1>LOGIN</h1>
-                <i class='bx bx-x'></i>
+                <a href="index.html"><i class='bx bx-x'></i></a>
                 <div class="all-input">
+
                     <div class="input-box">
-                        <input type="text" name="Username" placeholder="Username" required>
-                        <i class="bx bxs-user"></i>
+                        <i class="bx bxs-user"></i> <input type="text" name="Username" placeholder="Username" required>
                     </div>
-        
+
                     <div class="input-box">
-                        <input type="password" name="password" placeholder="Password" required>
-                        <i class="bx bxs-lock-alt"></i>
-                        
+                        <i class="bx bxs-lock-alt"></i> <input type="password" name="password" placeholder="Password"
+                            required>
                     </div>
+
                 </div>
-    
+
                 <div class="remember-forget">
                     <label><input type="checkbox"> Remember Me </label>
                     <a href="#"> Forget Password</a>
                 </div>
-            
+
                 <div class="button-register">
                     <div class="click-btn">
-                        <button class="login-btn" type="submit">LOGIN</button></div>
+                        <button class="login-btn" type="submit">LOGIN</button>
+                    </div>
                     <div class="register">
-                         <p> Don't have an account ?<a href="#">Register</a></p>
+                        <p> Don't have an account ?<a href="#">Register</a></p>
                     </div>
                 </div>
-    
+
             </div>
         </div>
     </form>
-    
+
     <!-- <div class="wrapper">
         <div class="register-page">
             <h1>REGISTER</h1>
@@ -78,4 +80,5 @@
         </div>
     </div> -->
 </body>
+
 </html>
