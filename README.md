@@ -1,5 +1,7 @@
 # Projet de Refonte du Site Web Olivier de Provence (brief-2)
 
+![Olivier de Provence](https://i.ibb.co/fkppF0r/Capture-d-cran-2024-05-13-143445.png)
+
 Bienvenue dans le projet de refonte du site web d'Olivier de Provence ! Ce document présente le contexte du projet, nos objectifs et les premières étapes de notre collaboration.
 
 ## Contexte du Projet
