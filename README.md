@@ -1,4 +1,4 @@
-# Projet de Refonte du Site Web Olivier de Provence
+# Projet de Refonte du Site Web Olivier de Provence (brief-2)
 
 Bienvenue dans le projet de refonte du site web d'Olivier de Provence ! Ce document présente le contexte du projet, nos objectifs et les premières étapes de notre collaboration.
 
